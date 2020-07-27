@@ -1,0 +1,89 @@
+body{
+	background-color:rgb(150,130,130);
+	font-family: cursive;
+	background-size: cover;
+}
+.navbar{
+	background: rgba(0,0,0,0.4);
+	height: 80px;
+	width: 100%;
+}
+.logo{
+ 	position: absolute;
+ 	top: 12px;
+ 	left: 15px;
+	border-radius: 30px;
+	}
+.navbar .bar{
+	margin-left: 500px;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+.feed{
+
+	position:absolute;
+	top:20%;
+	left: 20%; 
+}
+form li{
+
+	list-style: none;
+	margin-bottom: 20px;
+}
+label{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: cursive;
+	padding-left: 0;
+
+}
+textarea{
+	height: 200px;
+	width: 200xp;
+}
+form li input{
+	border-radius: 20%}
+input{
+	font-size: 10px;
+	font-weight: bold;
+	font-family: cursive;
+	
+
+}	
+.name{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.feed button{
+
+	height: 50px;
+	width: 150px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffb3b3;
+	background: red;
+	border: 1px solid #cc0000;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+
+}
+.feed .btn{
+	margin-left: 200px;
+}
+
+.feed button:hover{
+	background:#cc0000;
+}
+.feed .btn input{
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	background-color: red;
+}
+.btn input:hover{
+	background: #cc0000
+}
+
